@@ -10,9 +10,6 @@ namespace NetFive.Controllers
     {
         private readonly IHttpContextAccessor httpContextAccessor;
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="ErrorController"/> class.
-        /// </summary>
         public ErrorsController(
             IHttpContextAccessor httpContextAccessor)
         {
